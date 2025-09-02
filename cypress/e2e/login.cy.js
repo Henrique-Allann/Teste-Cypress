@@ -10,8 +10,6 @@ context('Funcionalidade Login', () =>{
     afterEach(() => {
         
     });
-    
-    
 
     it('Deve fazer login com sucesso' , () =>{
         cy.get('[name="username"]').type('henrique@gmail.com')
